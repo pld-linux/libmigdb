@@ -9,24 +9,24 @@ Source0:	http://dl.sourceforge.net/libmigdb/%{name}-%{version}.tar.bz2
 # Source0-md5:	4929260320253489a958bc95eb388c11
 URL:		http://sourceforge.net/projects/libmigdb/
 BuildRequires:	libstdc++-devel
-Requires:	gdb
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This library is an attempt to support the GDB/MI interface. MI stands for
-machine interface. In this mode gdb sends responses that are "machine
-readable" instead of "human readable"
+This library is an attempt to support the GDB/MI interface. MI stands
+for machine interface. In this mode gdb sends responses that are
+"machine readable" instead of "human readable".
 
 %description -l pl
-Ta biblioteka jest prób± obs³ugi interfejsu GDB/MI. MI oznacza interfejs
-maszyny. W tym trybie gdb wysy³a odpowiedzi, które s± "zrozumia³e dla
-maszyny" a nie s± "zrozumia³e dla cz³owieka".
+Ta biblioteka jest prób± obs³ugi interfejsu GDB/MI. MI oznacza
+interfejs maszyny. W tym trybie gdb wysy³a odpowiedzi, które s±
+"zrozumia³e dla maszyny" zamiast "zrozumia³ych dla cz³owieka".
 
 %prep
 %setup -q -n %{name}
 
 %build
-%{__make} CC="%{__cc}" \
+%{__make} \
+	CC="%{__cc}" \
 	CXX="%{__cxx}" \
 	CFLAGS="%{rpmcflags}" \
 	CXXFLAGS="%{rpmcflags}"
