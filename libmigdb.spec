@@ -1,5 +1,5 @@
 Summary:	Library handling GDB/MI interface
-Summary(pl.UTF-8):   Biblioteka obsługująca interfejs GDB/MI
+Summary(pl.UTF-8):	Biblioteka obsługująca interfejs GDB/MI
 Name:		libmigdb
 Version:	0.8.10
 Release:	1
