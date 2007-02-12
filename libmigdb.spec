@@ -1,5 +1,5 @@
 Summary:	Library handling GDB/MI interface
-Summary(pl):	Biblioteka obs≥uguj±ca interfejs GDB/MI
+Summary(pl.UTF-8):   Biblioteka obs≈ÇugujƒÖca interfejs GDB/MI
 Name:		libmigdb
 Version:	0.8.10
 Release:	1
@@ -16,10 +16,10 @@ This library is an attempt to support the GDB/MI interface. MI stands
 for machine interface. In this mode gdb sends responses that are
 "machine readable" instead of "human readable".
 
-%description -l pl
-Ta biblioteka jest prÛb± obs≥ugi interfejsu GDB/MI. MI oznacza
-interfejs maszyny. W tym trybie gdb wysy≥a odpowiedzi, ktÛre s±
-"zrozumia≥e dla maszyny" zamiast "zrozumia≥ych dla cz≥owieka".
+%description -l pl.UTF-8
+Ta biblioteka jest pr√≥bƒÖ obs≈Çugi interfejsu GDB/MI. MI oznacza
+interfejs maszyny. W tym trybie gdb wysy≈Ça odpowiedzi, kt√≥re sƒÖ
+"zrozumia≈Çe dla maszyny" zamiast "zrozumia≈Çych dla cz≈Çowieka".
 
 %prep
 %setup -q -n %{name}
