@@ -1,12 +1,12 @@
 Summary:	Library handling GDB/MI interface
 Summary(pl.UTF-8):	Biblioteka obsługująca interfejs GDB/MI
 Name:		libmigdb
-Version:	0.8.10
+Version:	0.8.11
 Release:	1
 License:	GPL v2
 Group:		Development/Libraries
 Source0:	http://dl.sourceforge.net/libmigdb/%{name}-%{version}.tar.bz2
-# Source0-md5:	4929260320253489a958bc95eb388c11
+# Source0-md5:	436484fe32f552f28ac06f16828c21b8
 URL:		http://sourceforge.net/projects/libmigdb/
 BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
